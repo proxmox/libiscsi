@@ -1,0 +1,8 @@
+libiscsi (1.5.0-1) unstable; urgency=low
+
+  * import to pve git. This work is based on the original debian package
+    from squeeze-backport. So the packages have the same name and should
+    include the same files as the original debian packages. The difference
+    is that we use latest stable release form git.
+
+ -- Proxmox Support Team <support@proxmox.com>  Tue, 17 Jul 2012 09:47:37 +0200

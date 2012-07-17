@@ -1,0 +1,48 @@
+This work was packaged for Debian by:
+
+    Proxmox Support Team <support@proxmox.com>
+
+    on Tue, 17 Jul 2012 10:34:43 +0200
+
+It was downloaded from:
+
+    git://github.com/sahlberg/libiscsi.git
+
+Upstream Author(s):
+
+    Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+Copyright:
+
+    Copyright (C) 2010 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+    see COPYING for details.
+
+License: GPL-2
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License version 2 as published by
+    the Free Software Foundation.
+
+    A copy of this license is included for your convenience in:
+    /usr/share/common-licenses/GPL-2	
+
+License: LGPL-2.1
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public License
+    as published by the Free Software Foundation; either version 2.1
+    of the License, or (at your option) any later version.
+
+    A copy of this license is included for your convenience in:
+    /usr/share/common-licenses/LGPL-2.1	
+
+The Debian packaging is:
+
+    Copyright (C) 2012 Proxmox Support Team <support@proxmox.com>
+
+    and is licensed under the AGPL version 3
+
+COPYING:
+
+
