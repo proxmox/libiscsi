@@ -1,6 +1,6 @@
-RELEASE=2.2
+RELEASE=2.3
 
-PKGVERSION=1.7.0
+PKGVERSION=1.8.0
 PKGRELEASE=1
 PKGDIR=libiscsi-${PKGVERSION}
 PKGSRC=libiscsi-${PKGVERSION}.tar.gz
@@ -27,7 +27,8 @@ ${DEBS}: ${PKGSRC}
 ${PKGSRC} download:
 	rm -rf ${PKGDIR} libiscsi.git
 	git clone git://github.com/sahlberg/libiscsi.git libiscsi.git
-	cd libiscsi.git; git checkout -b local ${PKGVERSION}
+	# There is no 1.8.0 tag - so we use master instead
+	#cd libiscsi.git; git checkout -b local ${PKGVERSION}
 	rsync -a --exclude .git --exclude .gitignore libiscsi.git/ ${PKGDIR} 
 	tar czf ${PKGSRC}.tmp  ${PKGDIR}
 	rm -rf ${PKGDIR}
