@@ -1,3 +1,9 @@
+libiscsi (1.9.0-1) unstable; urgency=low
+
+  * update to 1.9.0
+
+ -- Proxmox Support Team <support@proxmox.com>  Fri, 15 Mar 2013 11:01:00 +0100
+
 libiscsi (1.8.0-1) unstable; urgency=low
 
   * update to 1.8.0
