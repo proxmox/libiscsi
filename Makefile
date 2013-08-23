@@ -6,6 +6,7 @@ PKGDIR=libiscsi-${PKGVERSION}
 PKGSRC=libiscsi-${PKGVERSION}.tar.gz
 
 ARCH:=$(shell dpkg-architecture -qDEB_BUILD_ARCH)
+GITVERSION:=$(shell cat .git/refs/heads/master)
 
 DEBS=									\
 	libiscsi-bin_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 		\
@@ -20,6 +21,7 @@ ${DEBS}: ${PKGSRC}
 	rm -rf ${PKGDIR}
 	tar xf ${PKGSRC} 
 	cp -a debian ${PKGDIR}/debian
+	echo "git clone git://git.proxmox.com/git/libiscsi.git\\ngit checkout ${GITVERSION}" > ${PKGDIR}/debian/SOURCE
 	cat ${PKGDIR}/COPYING >>${PKGDIR}/debian/copyright
 	cd ${PKGDIR}; dpkg-buildpackage -rfakeroot -b -us -uc
 
