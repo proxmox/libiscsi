@@ -11,7 +11,7 @@ GITVERSION:=$(shell cat .git/refs/heads/master)
 DEBS=									\
 	libiscsi-bin_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 		\
 	libiscsi-dev_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 		\
-	libiscsi1_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 
+	libiscsi2_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 
 
 all: ${DEBS}
 	echo ${DEBS}
