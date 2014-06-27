@@ -1,3 +1,4 @@
 usr/include/*
 usr/lib/libiscsi.a
 usr/lib/libiscsi.so
+usr/lib/pkgconfig/libiscsi.pc

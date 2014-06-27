@@ -1,3 +1,9 @@
+libiscsi (1.11.0-2) unstable; urgency=low
+
+  * install libiscsi.pc
+
+ -- Proxmox Support Team <support@proxmox.com>  Fri, 27 Jun 2014 12:02:51 +0200
+
 libiscsi (1.11.0-1) unstable; urgency=low
 
   * update to 1.11.0
