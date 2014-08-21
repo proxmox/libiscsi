@@ -2,3 +2,6 @@
 # to avoid complications with multilib.  Note that this
 # shared object is put to /usr/bin by upstream, which is wrong.
 usr/bin/iscsi-*
+usr/share/man/man1/iscsi-ls.1
+usr/share/man/man1/iscsi-inq.1
+usr/share/man/man1/iscsi-swp.1
