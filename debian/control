@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7), libpopt-dev
 Standards-Version: 3.9.2
 Homepage: https://github.com/sahlberg/libiscsi
 
-Package: libiscsi2
+Package: libiscsi4
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -24,7 +24,7 @@ Description: iSCSI client shared library
 Package: libiscsi-dev
 Section: libdevel
 Architecture: any
-Depends: libiscsi2 (= ${binary:Version}), ${misc:Depends}
+Depends: libiscsi4 (= ${binary:Version}), ${misc:Depends}
 Description: iSCSI client shared library
  Libiscsi is a clientside library to implement the iSCSI protocol
  that can be used to access resource of an iSCSI Target.

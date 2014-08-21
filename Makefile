@@ -1,7 +1,7 @@
 RELEASE=3.2
 
 PKGVERSION=1.12.0
-PKGRELEASE=1
+PKGRELEASE=2
 PKGDIR=libiscsi-${PKGVERSION}
 PKGSRC=libiscsi-${PKGVERSION}.tar.gz
 
@@ -11,7 +11,7 @@ GITVERSION:=$(shell cat .git/refs/heads/master)
 DEBS=									\
 	libiscsi-bin_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 		\
 	libiscsi-dev_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 		\
-	libiscsi2_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 
+	libiscsi4_${PKGVERSION}-${PKGRELEASE}_${ARCH}.deb 
 
 all: ${DEBS}
 	echo ${DEBS}
